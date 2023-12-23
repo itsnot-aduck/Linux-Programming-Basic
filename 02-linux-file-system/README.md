@@ -1,6 +1,6 @@
 # Linux File system
 
-## Overview
+## 1. Overview
 Linux manages all objects as File
 - Regular File
 - Directories File
@@ -35,16 +35,21 @@ drwxr-xr-x  2 duki duki 4096 Thg 12  1 12:12 Videos
 ### File Type, Right & Access
 ```d rwx rwx r-x```
 - `d`: directory, `-`: regular
+
 For each 3 bytes after: (r: read, w: write, x: execute)
+
 - User Access:
 - Group Access
 - Other Access
 
+Login to user root: `sudo su`
 
-## Read and Write file
+Change the access mode: `chmod + access value in hex (0646 for ex)`
 
-##File Management 
+## 2. Read and Write file
 
-##File Locking
+## 3. File Management  
 
-##Asynchronous file reading
+## 4. File Locking
+
+## 5. Asynchronous file reading
